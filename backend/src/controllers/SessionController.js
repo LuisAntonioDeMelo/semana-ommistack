@@ -9,8 +9,6 @@ module.exports = {
             
         if(!user){
              user = await User.create({email});
-        }else {
-            return resp.json({message:"email inválido !"})
         }
 
         return resp.json(user);

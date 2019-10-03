@@ -15,7 +15,7 @@ const upload = multer(uploadConfig)
 //     return resp.json({"nome":"Luis","idade":27});
 // });
 
-routes.post('/users',SessionController.store);
+routes.post('/sessions',SessionController.store);
 
 routes.post('/spots',upload.single('thumbnail'),SpotController.store);
 routes.get('/spots', SpotController.index );
