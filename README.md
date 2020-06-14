@@ -8,7 +8,6 @@ Criação da aplicação AirCnC
   -React Native 
   -MongoDB
   
-100% js 
 
 
 
